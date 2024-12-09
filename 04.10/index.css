@@ -1,0 +1,176 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.bocks{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: fit-content;
+}
+.box{
+	/*border: 1px solid green;*/
+	width: 100%;
+	height: 600px;
+	background: url(ph1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.fon{
+	width: 100%;
+	height: 100%;
+	background: rgba(180, 180, 180, 0.7);
+}
+.box1{ 
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	justify-content: space-evenly;
+	font-family: sans-serif;
+}
+.box1 h1{
+	color: white;
+}
+.box1 span{
+	color: white;
+	margin: 20px 100px;
+}
+.navigate{
+	width: fit-content;
+	height: fit-content;
+	display: flex;
+}
+.nav{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	gap: 25px;
+	font-size: 21px;
+	/*color: white;*/
+}
+.nav li a{
+	color: white;
+	text-decoration: none;
+}
+.box2{
+	width: fit-content;
+	height: fit-content;
+	font-family: sans-serif;
+	color: white;
+	text-shadow: 2px 4px 5px black;
+	margin: auto;
+	text-align: center;
+	padding: 150px;
+}
+.h1{
+	font-size: 30px;
+}
+.boss{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	padding: 30px;
+	font-family: sans-serif;
+}
+.box3{
+	width: 47%;
+	height: 100%;
+}
+.bor{
+	border-bottom: 2px solid green;
+}
+.box3 img{
+	width: 100%;
+	height: 100%;
+}
+.boss1{
+	/*border: 1px solid;*/
+	width: 100%;
+	height: 550px;
+	text-align: center;
+	padding-top: 30px;
+}
+.boss1 span{
+	font-size: 25px;
+	margin-top: 20px;
+	font-family: sans-serif;
+}
+.info{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	padding: 40px;
+	box-sizing: border-box;
+}
+.img{
+	width: 33%;
+	height: 100%;
+}
+.img1{
+	width: 100%;
+	height: 60%;
+}
+.text{
+	width: 90%;
+	text-align: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.boss2{
+	width: 100%;
+	height: 500px;
+	padding: 50px;
+	box-sizing: border-box;
+}
+.Box1{
+	/*border: 1px solid;*/
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.box4{
+	width: 50%;
+	height: 100%;
+}
+.box4 img{
+	width: 100%;
+	height: 100%;
+}
+.box5{
+	width: 50%;
+	height: 100%;
+	background: black;
+	text-align: left;
+	color: white;
+	padding: 30px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.boss3{
+	/*border: 1px solid;*/
+	width: 100%;
+	height: fit-content;
+	padding: 30px;
+	box-sizing: border-box;
+	display: flex;
+}
+.Box2{
+	width: 30%;
+	height: 200px;
+	margin: 5px;
+	text-align: left;
+}
+.nav1{
+	list-style: none;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+.Box2 b,button{
+	margin-left: 45px;
+}
+.Box2 button{
+	width: 100px;
+	background: green;
+	color: white;
+	border: none;
+}
